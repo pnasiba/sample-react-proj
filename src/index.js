@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import Intro from './Intro';
 import About from './About';
+import Skills from './Skills';
+import Contact from './Contact';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +15,9 @@ root.render(
     <App />
     <Intro/>
     <About/>
+    <Skills/>
+    <Contact/>
+    <Footer/>
   </React.StrictMode>
 );
 
