@@ -1,0 +1,283 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background: #363636;
+    color: #fff;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+li a {
+    color: #fff;
+    transition: color 0.3 ease;
+}
+
+li a:hover {
+    color: rgb(218, 217, 217);
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.main {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4f4e4e;
+}
+
+.main h1 {
+    color: black;
+}
+
+.image img {
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.text {
+    width: 700px;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.location {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #4f4e4e;
+}
+
+.location i {
+    font-size: 22px;
+}
+
+.pack {
+    margin-top: 50px;
+}
+
+.pack p {
+    margin: 2px;
+    font-size: 17px;
+}
+
+.icon {
+    margin-top: 6px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.icon i {
+    color: green;
+    font-size: 22px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.socials a svg {
+    font-size: 22px;
+}
+
+#about {
+    background-color: #e3e2e2;
+    padding: 50px 0;
+    color: #403f3f;
+}
+
+.about-text {
+    font-size: 16px;
+    margin: auto auto 20px auto;
+    background-color: #bdbdbd;
+    width: 70px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: #363636;
+}
+
+.about-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+
+    img {
+        width: 420px;
+        height: 500px;
+        border-radius: 10px;
+    }
+}
+
+.about-wrapper_text {
+    h1 {
+        font-size: 30px;
+        color: black;
+    }
+
+    p {
+        font-size: 17px;
+        margin: 18px 0 0 0;
+
+        a {
+            color: #363636;
+            text-decoration: underline;
+        }
+
+    }
+
+    .detail {
+        display: flex;
+        gap: 20px;
+    }
+
+    .detail-list {
+        margin: 5px 0;
+        /* padding: 10px 0; */
+        line-height: 2;
+
+    }
+}
+
+#skills {
+    padding: 50px 0;
+}
+
+.skills-text {
+    font-size: 16px;
+    margin: auto auto 20px auto;
+    background-color: #bdbdbd;
+    width: 70px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: #363636;
+    text-align: center
+}
+
+#skills h3 {
+    text-align: center;
+    font-size: 26px;
+    color: #363636;
+}
+
+.skills-logo {
+    padding: 30px 0;
+
+    div {
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+#contact {
+    padding: 50px 0;
+    background-color: #e3e2e2;
+}
+
+.contact-text {
+    font-size: 16px;
+    margin: auto auto 20px auto;
+    background-color: #bdbdbd;
+    width: 100px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: #363636;
+    text-align: center
+}
+
+.contact-logo {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 28px;
+    color: black;
+    height: 60px;
+}
+
+.phone {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    font-size: 28px;
+    color: black;
+    margin: 0;
+    height: 60px;
+}
+
+.gmail svg {
+    width: 50px;
+}
+
+.phone svg {
+    width: 60px;
+}
+
+.contact-data {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+    color: #363636;
+}
+
+.contact-socials {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background: #363636;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
